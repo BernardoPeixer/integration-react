@@ -1,4 +1,12 @@
 .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    flex-wrap: wrap;
+    gap: 12px 8px;
+    width: 100%;
+}
+
+.cardContentContainer {
     display: flex;
     gap: 20px;
     flex-direction: row;
