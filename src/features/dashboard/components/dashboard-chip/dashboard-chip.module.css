@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 12px;
+    padding: 8px 16px;
+    background-color: rgba(17, 22, 29, 1);
+    border: #1F2937 solid 1px;
+}
+
+.title {
+    font-size: 16px;
+    color: #9CA3AF;
+    font-weight: lighter;
+}
+
+.info {
+    padding: 4px 12px;
+    border-radius: 12px;
+    background-color: rgba(47, 66, 62, 0.68);
+
+    & .h1 {
+        color: white;
+        font-weight: lighter;
+        font-size: 14px;
+    }
+}

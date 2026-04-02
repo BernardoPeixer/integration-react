@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+    background-color: rgba(42, 50, 55, 0.42);
+    border: rgba(255, 255, 255, 0.17) solid 1px;
+}
